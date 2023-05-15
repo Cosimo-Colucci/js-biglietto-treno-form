@@ -1,10 +1,11 @@
 const userTripDistance = document.getElementById (tripDistance);
 const Age = document.getElementById (userAge);
-
+const button = document.querySelector ("button")
 let price = userTripDistance * 0.233;
 let message;
 
 button.addEventListener ("click", function() {
+    userTripDistance
     console.log (price)
 })
 
