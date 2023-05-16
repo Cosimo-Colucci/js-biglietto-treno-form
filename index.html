@@ -13,20 +13,26 @@
         <title>Biglietti Treno Form</title>
     </head>
     <body>
-        <h1>
-            Train ticket generator
-        </h1>
-        <label for="tripDistance">Write the distance of your trip</label>
-        <input type="text" name="tripDistance" id="tripDistance">
-
-        <label for="userAge">Insert your Age</label>
-        <input type="number" name="userAge" id="userAge">
-
-        <button>
-            Vai
-        </button>
-
-        <pre id="output">Your ticket costs:</pre>
+        <main>
+            <h1>
+                Train ticket generator
+            </h1>
+            <label for="tripDistance">Write the distance of your trip</label>
+            <input type="number" name="tripDistance" id="tripDistance">
+    
+            <label for="userAge">Insert your Age</label>
+            <input type="number" name="userAge" id="userAge">
+    
+            <button>
+                Generete
+            </button>
+            <button class="reset">
+                Reset
+            </button>
+    
+            <pre id="output">Generete your ticket costs:</pre>
+        </main>
+        
 
         <script src="js/script.js"></script>
     </body>

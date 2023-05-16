@@ -1,6 +1,7 @@
 const userTripDistance = document.getElementById ("tripDistance");
 const Age = document.getElementById ("userAge");
 const button = document.querySelector ("button");
+const resetButton = document.getElementById ("button.reset");
 let message;
 
 button.addEventListener ("click", function() {
@@ -20,6 +21,12 @@ button.addEventListener ("click", function() {
             message = 'Your traveler has received no discounts on the final price.'
          }
 
-    document.getElementById('output').innerHTML += price.toFixed(2) +'€' + ' ' + message;
+    document.getElementById('output').innerHTML = "Your ticket costs is" + " " + price.toFixed(2) +'€' + ' ' + message;
     console.log (price.toFixed(2))
+})
+
+resetButton.addEventListener ("click", function() {
+    userTripDistance.value = " ";
+    Age.value = " ";
+
 })
