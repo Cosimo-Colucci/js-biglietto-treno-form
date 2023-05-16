@@ -26,7 +26,7 @@ button.addEventListener ("click", function() {
 })
 
 resetButton.addEventListener ("click", function() {
-    userTripDistance.value = " ";
-    Age.value = " ";
+    userTripDistance.value = "";
+    Age.value = "";
 
 })
