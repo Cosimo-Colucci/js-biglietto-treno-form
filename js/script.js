@@ -19,6 +19,7 @@ button.addEventListener ("click", function() {
          } else {
             message = 'Your traveler has received no discounts on the final price.'
          }
-         //document.getElementById('output').innerHTML += price.toFixed(2) +'€' + ' ' + message;
+
+    document.getElementById('output').innerHTML += price.toFixed(2) +'€' + ' ' + message;
     console.log (price.toFixed(2))
 })
